@@ -10,13 +10,18 @@ Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, T
 ## Objetivos general
 Diseñar un modelo controlador utilizado para describir las caracteristicas respiratorias que permita formular un protocolo de tratamiento para que un paciente con Parkinson (caso) a comparativa con paciente sano (control).
 ## Actividades
-1. Calcular analiticamente la funcion de transferencia del sistema Neuro-motor
-2. Establecer el modelo de ecuaciones integro-diferenciales
-3. Determinar el error en estado estacionario y la estabilidad del sistema en lazo abierto
-4. Construir el diagrama de bloques como se indica
-5. Diseñar el controlador con simulink utilizando el bloque I Controller y la herramienta "Tune" para sintonizar los valores optimos para cada una de las ganancias Kp,Ki,Kp.
-6. Elaborar el diagrama fisiologico del sistema con Biorender.com
-7. Discutir los resultados obtenidos en la experimentacion in silico y elaborar el reporte de proyecto final.
+Fases:
+Fase 1: Seleccionar el sistema fisiológico a analizar, descripción del sistema mediante una analogía con un circuito RLC; indicar la enfermedad y los valores correspondientes para el caso y para el control; verificar la respuesta en lazo abierto en Multisim.
+
+Fase 2: Calcular de forma análitica la función de transferencia, el error en estado estacionario y el modelo de ecuaciones integro-diferenciales; determinar la estabilidad en lazo abierto del caso y del control utilizando los valores numéricos para cada sistema; verificar que la respuesta en lazo abierto obtenida en Spyder (Python) y Simulink coincida con la respuesta de Multisim.
+
+Fase 3: Diseñar el controlador PID en Simulink; sintonizar las ganancias kP, kI y kD que permitan eliminar el error en la respuesta del caso; ilustrar los resultados (respuestas del control, del caso y del tratamiento) en un cuaderno computacional de MATLAB y en Spyder con lenguaje Python.
+
+Fase 4: Elaborar el diagrama fisiológico en BioRender, de tal forma que permita visualizar las diferencias entre el caso y el control, identificando los componentes del circuito RLC análogo, las corrientes y diferencias de potencial, particularmente los componentes que cambian su valor en el caso y el control.
+
+Fase 5: Construir el repositorio de GitHub con todos los resultados del proyecto.
+ 
+Fase 6: Elaborar un ensayo gráfico que permita visualizar el trabajo realizado desde la descripción del sistema, análisis matemático, simulaciones numéricas, diagrama fisiológico y repositorio de GitHub.
 ## Docente
 Dr. Paul A. Valle Trujillo
 
