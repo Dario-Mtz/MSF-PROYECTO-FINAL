@@ -5,7 +5,7 @@
 ## Autor
 Martinez Camarena Dario Antonio
 
-Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, Tecnológico Nacional de México/IT Tijuana. Blvd. Alberto Limón Padilla s/n, Tijuana, C.P. 22454, B.C., México. Email: L22210415@tectijuana.edu.mx
+Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, Tecnológico Nacional de México/IT Tijuana. Blvd. Alberto Limón Padilla s/n, Tijuana, C.P. 22454, B.C., México. Email: L21210684@tectijuana.edu.mx
 
 ## Objetivos general
 Diseñar un modelo controlador utilizado para describir las caracteristicas respiratorias que permita formular un protocolo de tratamiento para que un paciente con Parkinson (caso) a comparativa con paciente sano (control).
